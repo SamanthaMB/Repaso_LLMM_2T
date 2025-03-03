@@ -1,0 +1,123 @@
+@font-face {
+    /*Asignamos tipo de letra*/
+    font-family: 'Kenewave';
+    src: url('../fonts/Knewave-Regular.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+:root {
+    /*Reseteamos medidas y asigamos variables comunes*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --fuente-principal: 'Kenewave';
+    --fuente-secundaria: Monserrat;
+    --fondo-principal: url('../img/background.webp');
+    --fondo-secundario:#0c3e11;
+}
+
+body {
+    /* Común para todos los body */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.index{
+    background-image: var(--fondo-principal);
+}
+
+h1{
+    font-family: var(--fuente-principal);
+    color: #0044cc;
+    font-size: 48px;
+    text-align: center;
+}
+
+table{
+    width: 600px;
+    height: 400px;
+    background-color: #f4f4f4;
+    border: 3px solid #222;
+    margin:auto
+
+}
+
+thead{
+    font-weight: bold;
+    background-color: #dddddd;
+}
+
+td {
+    
+    background-repeat: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    
+}
+
+td.Charmander {
+    background-image: url(../img/charmander.jfif);
+    
+}
+
+td.Pikachu{
+    background-image: url(../img/pikachu.png);
+    
+}
+
+td.Bulbasaur{
+    background-image: url(../img/Bulbasaur.png);
+}
+
+form{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #666;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+    
+    
+}
+
+h2{
+    color:#0c3e11;
+    font-size: 30px;
+    font-family: var(--fuente-principal);
+    text-align: center;
+
+}
+
+input,label{
+    display: block;
+}
+
+#Enviar{
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#Borrar{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+textarea{
+    width: 480px;
+}
