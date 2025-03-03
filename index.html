@@ -36,28 +36,32 @@
     </table>
 
 
-    
+
     <div class="formulario">
         <h2>Formulario de Inscripción</h2>
         <form action="#" method="POST">
-            <fieldset>
-                <legend>Datos Personales</legend>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" required>
-            </fieldset>
-            <fieldset>
-                <legend>Datos Contacto</legend>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </fieldset>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-            <input id="Enviar" type="submit" value="Enviar">
-            <input id="Borrar" type="resert" value="Borrar">
+            <div class="f">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </fieldset>
+            </div>
+            <div class="f">
+                <fieldset>
+                    <legend>Datos Contacto</legend>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+            </div>
+            <div class="f">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                <input id="Enviar" type="submit" value="Enviar">
+                <input id="Borrar" type="resert" value="Borrar">
+            </div>
         </form>
 
 

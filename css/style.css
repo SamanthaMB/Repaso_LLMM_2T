@@ -93,10 +93,18 @@ h2{
     font-size: 30px;
     font-family: var(--fuente-principal);
     text-align: center;
+    background-color: aquamarine;
 
 }
 
-input,label{
+.f{
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: auto;
+}
+
+label{
     display: block;
 }
 
